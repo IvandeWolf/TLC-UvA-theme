@@ -114,7 +114,7 @@
         <div class="card__menu-title">Jump to:</div>
         {{ range .Pages.ByWeight }}
         <a href="#{{ replace (lower .Title) " " "_" }}" class="card__action card__action--menu card__action--left">
-          <img src="{{ .Site.BaseURL }}{{ .Params.Menu }}" alt="expand section"
+          <img src="{{ .Site.BaseURL }}{{ .Params.Menuicon }}" alt="expand section"
             class="card__action--icon card__action--medium">
           <span class="card__action-text">{{ .Params.Title }}</span>
         </a>
