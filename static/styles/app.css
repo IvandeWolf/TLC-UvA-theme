@@ -87,23 +87,15 @@ footer {
   padding: 70px 0;
 }
 
-.footer__line {
+.footer__content p {
   margin-bottom: 16px;
 }
 
-.footer__line--title {
-  font-weight: bold;
-}
-
-.footer__line--text {
-  display: inline;
-}
-
-.footer__line--text a {
+.footer__content a {
   color: var(--primary);
 }
 
-.footer__line--text a:hover {
+.footer__content a:hover {
   text-decoration: underline;
 }
 
@@ -403,8 +395,12 @@ main {
   font-weight: normal;
 }
 
-.block__subtitle > a {
+.block__subtitle a {
   color: var(--primary);
+}
+
+.block__subtitle img {
+  height: 11px;
 }
 
 .block__paragraph {

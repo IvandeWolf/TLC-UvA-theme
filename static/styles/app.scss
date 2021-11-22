@@ -102,24 +102,16 @@ footer {
     max-width: $width;
     margin: 0 auto;
     padding: 70px 0;
-  }
 
-  &__line {
-    margin-bottom: 16px;
-
-    &--title {
-      font-weight: bold;
+    & p {
+      margin-bottom: 16px;
     }
 
-    &--text {
-      display: inline;
-
-      & a {
-        color: var(--primary);
-        
-        &:hover {
-          text-decoration: underline;
-        }
+    & a {
+      color: var(--primary);
+      
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
@@ -389,8 +381,12 @@ main {
     font-size: 18px;
     font-weight: normal;
 
-    & > a {
+    & a {
       color: var(--primary);
+    }
+
+    & img {
+      height: 11px;
     }
   }
 
